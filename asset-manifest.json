@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AlviDervishaj/Todo-App/static/css/main.a68d1a34.css",
+    "main.js": "/AlviDervishaj/Todo-App/static/js/main.3ad1fd1d.js",
+    "static/js/787.63e47474.chunk.js": "/AlviDervishaj/Todo-App/static/js/787.63e47474.chunk.js",
+    "service-worker.js": "/AlviDervishaj/Todo-App/service-worker.js",
+    "index.html": "/AlviDervishaj/Todo-App/index.html",
+    "main.a68d1a34.css.map": "/AlviDervishaj/Todo-App/static/css/main.a68d1a34.css.map",
+    "main.3ad1fd1d.js.map": "/AlviDervishaj/Todo-App/static/js/main.3ad1fd1d.js.map",
+    "787.63e47474.chunk.js.map": "/AlviDervishaj/Todo-App/static/js/787.63e47474.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a68d1a34.css",
+    "static/js/main.3ad1fd1d.js"
+  ]
+}
