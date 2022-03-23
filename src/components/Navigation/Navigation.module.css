@@ -1,0 +1,26 @@
+.navigation {
+  width: 100%;
+  height: 2rem;
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+.navigationLink {
+  padding: 0.25rem 0.35rem;
+  color: #35a7ff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+@media only screen and (max-width: 945px){
+  .navigationLink{
+    font-size: 1.3rem;
+  }
+}

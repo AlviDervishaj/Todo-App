@@ -1,0 +1,15 @@
+.todoViewScroll {
+  width: 100%;
+  height: calc(100vh - 10rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.todoHolder {
+  width: 100%;
+  height: auto;
+}

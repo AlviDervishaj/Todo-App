@@ -1,0 +1,19 @@
+.todoInput{
+	width: 70%;
+	height: auto;
+	border: none;
+	outline: none;
+	font-size: 1.2rem;
+	border-bottom: 1px solid #343a40;
+	padding: 0.7rem;
+	box-sizing: border-box;
+	margin-left: 1.3rem;
+	background-color: transparent;
+	color: #ced4da;
+}
+@media only screen and (max-width: 945px){
+	.todoInput{
+		width: 90%;
+		font-size: 1rem;
+	}
+}

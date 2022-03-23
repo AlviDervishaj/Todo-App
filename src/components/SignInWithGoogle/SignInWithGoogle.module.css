@@ -1,0 +1,12 @@
+.logInWithGoogle {
+  width: auto;
+  height: auto;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  place-items: center;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
