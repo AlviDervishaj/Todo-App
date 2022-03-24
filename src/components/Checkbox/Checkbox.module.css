@@ -1,0 +1,44 @@
+.parent {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+  padding-bottom: 0.25rem;
+}
+.checkbox {
+  appearance: none;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 2px solid #35a7ff;
+  border-radius: 50%;
+}
+.todoText {
+  color: #ced4da;
+  word-break: break-word;
+  word-wrap: break-word;
+  padding-left: 0.25rem;
+  font-size: 1.2rem;
+}
+.todoTextLineThrough {
+  text-decoration: line-through;
+}
+.todoTextNormal {
+  text-decoration: none;
+}
+.markedAsDone {
+  background-color: #35a7ff;
+}
+.emptyCheckbox {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 945px) {
+  .todoText {
+    font-size: 1rem;
+  }
+}

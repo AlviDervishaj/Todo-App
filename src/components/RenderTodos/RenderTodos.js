@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Todo } from "../Todo/Todo";
 import { NoTodos } from "../NoTodos/NoTodos";
 import styles from "./RenderTodos.module.css";
 import { CreateTodoInput } from "../CreateTodoInput/CreateTodoInput";
+import { TodoContext } from "../../App";
 export const RenderTodos = ({
-  todos,
   isInputShown,
   onBlurredHandler,
   onKeyDownHandler,
@@ -12,6 +12,7 @@ export const RenderTodos = ({
   setInputValue,
   todoInputRef,
 }) => {
+  const todos = useContext(TodoContext);
   return (
     <section className={styles.todoViewScroll}>
       {todos.length > 0 || isInputShown ? (
