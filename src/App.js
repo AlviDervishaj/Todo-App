@@ -10,7 +10,11 @@ export const TodoContext = createContext();
 export const HandleCheckboxChangeContext = createContext();
 
 export const App = () => {
-  const [todos, setTodos] = useState(JSON.parse(localStorage.getItem("todos")));
+  const [todos, setTodos] = useState(
+    localStorage.getItem("todos")
+      ? JSON.parse(localStorage.getItem("todos"))
+      : []
+  );
   // get todos from local storage when component is mounting
   // useEffect(() => {
   //   // get todos from localStorage
