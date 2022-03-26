@@ -36,7 +36,6 @@ export const App = () => {
   }, [todos]);
 
   const handleCheckboxChange = (value, uid) => {
-    console.log("he he");
     todos.map((_todo) => {
       if (_todo.uid === uid) {
         // clear local storage

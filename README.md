@@ -6,7 +6,7 @@ Main concepts of tutorial.
 - What is JSX ?
 - Project walkthrough
 
-### Idea : Todo App inspired by Iphone's todo
+### Idea : Todo App insipred by Iphone's todo
 
 ## Requirements
 		NodeJS Version >= 17.7.2
@@ -49,31 +49,35 @@ Main parts of components are :
 JSX is a special syntax which allows us, developers, to combine HTML and JS syntaxes together and render JavaScript in the document.
 It is accessed inside HTML part of the component and it's syntax is similar to this : 
 
-
+```html
     <div className="...">
 	    <h2 className="...">{ user.username }</h2>
 	    <!-- { ... } inside the h2 tag is called JSX -->
 	    <!-- rest of the code below -->
     </div>
+```
 
 In this example we are displaying the username inside h2 tag.
 
 - User object might look something like this : 
-		
-		const user = {
-			username: 'Alvi',
-			email: "alvidervishaj9@gmail.com",
-			tag: "#1286"
-		}`
+```javascript
+const user = {
+	username: 'Alvi',
+	email: "alvidervishaj9@gmail.com",
+	tag: "#1286"
+}
+```
 Just by looking at it we can see that user is a constant ( which means that it's value can not be changed after initializing ) and an object. This means that we can access it's username, email and tag just by saying the property we want to get. For example if we want to get user email from the object above : 
 
-		user.email
+```javascript
+user.email
+```
 		
 * IMPORTANT : This is plain Javascript syntax. JSX just allows us to render Javascript in HTML basically.
 * Any valid Javascript syntax is valid inside JSX
 
 
-## Project walkthrough
+## Project Walkthrough
 ### Part 1 ( Installing packages and necessary modules )
 1. [Install NodeJs](https://nodejs.org/en/)
 2. Install npx by running `npm install -g npx` in your terminal.
@@ -81,6 +85,7 @@ Just by looking at it we can see that user is a constant ( which means that it's
 	- `npx create-react-app todo`
 This command will create a react app named todo. It might ask you to install create-react-app script, in which case you need to give access by entering **y** or  **yes** in terminal
 4. After the process is finished we will change our terminal directory by entering  `cd todo` in terminal.
+5. Next we will install react-draggable which will help us in making a todo swippable / draggable along the x or y axis, which in turn will give us a better user experience.
 
 ### Part 2 ( Setting up Code Editor )
 1. Open the newly created project in your favorite code editor. I will continue with Visual Studio Code.
